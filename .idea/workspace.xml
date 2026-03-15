@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65e232e-abdf-4704-8ac4-21302d307694" name="Changes" comment="test1 commit">
-      <change afterPath="$PROJECT_DIR$/HandTracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HandTrackingModule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewHandTracking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myfunc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test1.ipynb" afterDir="false" />
+    <list default="true" id="c65e232e-abdf-4704-8ac4-21302d307694" name="Changes" comment="HandTrackingModule.py &#10;NewHandTracking.py&#10;done v1">
+      <change afterPath="$PROJECT_DIR$/PoseEstimationMin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Gesture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Gesture.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gesture.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandTracking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ggg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfunc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +58,7 @@
     "Python.HandTracking.executor": "Run",
     "Python.HandTrackingModule.executor": "Run",
     "Python.NewHandTracking.executor": "Run",
+    "Python.PoseEstimationMin.executor": "Run",
     "Python.gesture.executor": "Run",
     "Python.ggg.executor": "Run",
     "Python.test2.executor": "Run",
@@ -86,7 +84,7 @@
       <recent name="U:\NMTI\_WORK\WORK\Projects\Gesture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.NewHandTracking">
+  <component name="RunManager" selected="Python.PoseEstimationMin">
     <configuration name="HandTracking" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Gesture" />
       <option name="ENV_FILES" value="" />
@@ -156,7 +154,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="PoseEstimationMin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Gesture" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,7 +168,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PoseEstimationMin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PoseEstimationMin" />
         <item itemvalue="Python.NewHandTracking" />
         <item itemvalue="Python.HandTrackingModule" />
         <item itemvalue="Python.test3" />
         <item itemvalue="Python.HandTracking" />
-        <item itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +229,7 @@
       <workItem from="1773591401633" duration="495000" />
       <workItem from="1773591924231" duration="614000" />
       <workItem from="1773592561776" duration="6220000" />
-      <workItem from="1773601536145" duration="4760000" />
+      <workItem from="1773601536145" duration="6295000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -257,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773592111606</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HandTrackingModule.py &#10;NewHandTracking.py&#10;done v1">
+      <option name="closed" value="true" />
+      <created>1773606404519</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773606404519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,11 +272,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="test1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test1 commit" />
+    <MESSAGE value="HandTrackingModule.py &#10;NewHandTracking.py&#10;done v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HandTrackingModule.py &#10;NewHandTracking.py&#10;done v1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Gesture$gesture.coverage" NAME="gesture Coverage Results" MODIFIED="1773593761452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Gesture$NewHandTracking.coverage" NAME="NewHandTracking Coverage Results" MODIFIED="1773606100925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gesture$NewHandTracking.coverage" NAME="NewHandTracking Coverage Results" MODIFIED="1773606199607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Gesture$PoseEstimationMin.coverage" NAME="PoseEstimationMin Coverage Results" MODIFIED="1773608195863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Gesture$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1773605406447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Gesture$HandTrackingModule.coverage" NAME="HandTrackingModule Coverage Results" MODIFIED="1773606097494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Gesture$HandTracking.coverage" NAME="HandTracking Coverage Results" MODIFIED="1773598773849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
