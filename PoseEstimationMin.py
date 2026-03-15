@@ -14,7 +14,7 @@ while True:
     fps = int(1 / (currenttime - previoustime))
     previoustime = currenttime
 
-    cv2.putText(frame, str(fps), (70, 50), cv2.FONT_HERSHEY_PLAIN, 3, \
+    cv2.putText(frame, str(fps), (70, 50), cv2.FONT_HERSHEY_PLAIN, 3,
                 (0, 0, 255), 3)
 
     cv2.imshow("Image", frame)
